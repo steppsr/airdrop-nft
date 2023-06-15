@@ -8,6 +8,7 @@ airdrops=`cat airdrop.csv`
 fee_xch="0.000000000001"
 fingerprint="your_fingerprint_here"
 nft_wallet_id="your_nft_wallet_id"
+seconds=60
 
 n=1
 for itm in $airdrops
@@ -23,7 +24,7 @@ do
 
 	n=$(($n+1))
 
-	secs=60
+	secs=$seconds
     while [ $secs -gt 0 ]; do
        echo -ne " $secs\033[0K\r"
        sleep 1
