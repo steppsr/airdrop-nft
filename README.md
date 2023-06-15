@@ -12,5 +12,7 @@ You should edit the top of the script to set the values for your setup:
 This sends the NFTs one-at-time and not in bulk.
 
 ## Running the script
-`bash airdrop.sh`
+```Bash
+bash airdrop.sh
+```
 
